@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0549F68-0B9D-40C3-9E83-2F5684A41182}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PrintServiceCardApp</RootNamespace>
+    <AssemblyName>PrintServiceCardApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\skul\SKUL\Dependencies\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DirectX.Capture">
+      <HintPath>..\..\skul\SKUL\Dependencies\DirectX.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\skul\SKUL\Dependencies\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core">
+      <HintPath>..\..\skul\SKUL\Dependencies\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao\Dao.cs" />
+    <Compile Include="Dao\DbConfig.cs" />
+    <Compile Include="Dao\AffectationDao.cs" />
+    <Compile Include="Dao\SettingDao.cs" />
+    <Compile Include="Dao\ZoneDao.cs" />
+    <Compile Include="Dao\ProvinceDao.cs" />
+    <Compile Include="Dao\PersonnelGradeDao.cs" />
+    <Compile Include="Dao\PersonnelFonctionDao.cs" />
+    <Compile Include="Dao\FonctionDao.cs" />
+    <Compile Include="Dao\PersonnelDao.cs" />
+    <Compile Include="Dao\GradeDao.cs" />
+    <Compile Include="Dao\Helper\AppDao.cs" />
+    <Compile Include="Dao\Helper\Connection.cs" />
+    <Compile Include="Dao\Helper\Util.cs" />
+    <Compile Include="Extension\StringExtensions.cs" />
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="Model\Affectation.cs" />
+    <Compile Include="Model\AppConfig.cs" />
+    <Compile Include="Model\ModelBase.cs" />
+    <Compile Include="Model\Setting.cs" />
+    <Compile Include="Model\Zone.cs" />
+    <Compile Include="Model\Province.cs" />
+    <Compile Include="Model\PersonnelFonction.cs" />
+    <Compile Include="Model\Fonction.cs" />
+    <Compile Include="Model\PersonnelGrade.cs" />
+    <Compile Include="Model\Grade.cs" />
+    <Compile Include="Model\Helper\ImageUtil.cs" />
+    <Compile Include="Model\Helper\PasswordStorage.cs" />
+    <Compile Include="Model\Personnel.cs" />
+    <Compile Include="Modules\FonctionView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\FonctionView.designer.cs">
+      <DependentUpon>FonctionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\GradeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\GradeView.designer.cs">
+      <DependentUpon>GradeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\EditEmployeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\EditEmployeView.Designer.cs">
+      <DependentUpon>EditEmployeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ListeCarteView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ListeCarteView.Designer.cs">
+      <DependentUpon>ListeCarteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PhotoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PhotoView.designer.cs">
+      <DependentUpon>PhotoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reporting\DataSet\ServiceCard.cs">
+      <DependentUpon>ServiceCard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reporting\DataSet\ServiceCard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceCard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Reporting\Report\CarteServiceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarteServiceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Reporting\Report\CartesServiceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CartesServiceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\Template\CardView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Template\CardView.Designer.cs">
+      <DependentUpon>CardView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ReportView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ReportView.Designer.cs">
+      <DependentUpon>ReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup.Designer.cs">
+      <DependentUpon>Popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\FonctionView.resx">
+      <DependentUpon>FonctionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\GradeView.resx">
+      <DependentUpon>GradeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\EditEmployeView.resx">
+      <DependentUpon>EditEmployeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ListeCarteView.resx">
+      <DependentUpon>ListeCarteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PhotoView.resx">
+      <DependentUpon>PhotoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reporting\Report\CarteServiceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CarteServiceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Reporting\Report\CartesServiceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CartesServiceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Template\CardView.resx">
+      <DependentUpon>CardView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ReportView.resx">
+      <DependentUpon>ReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup.resx">
+      <DependentUpon>Popup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Modules\Reporting\DataSet\ServiceCard.xsc">
+      <DependentUpon>ServiceCard.xsd</DependentUpon>
+    </None>
+    <None Include="Modules\Reporting\DataSet\ServiceCard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ServiceCard.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Modules\Reporting\DataSet\ServiceCard.xss">
+      <DependentUpon>ServiceCard.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dao\db\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSC_0450.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qr code test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CD-EPS-01-0001 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrowhead-Left-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrowhead-Right-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Branch-Engineering.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-Date-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Command-hhhRefresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Command-Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Command-Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document-Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\House11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Housfffe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monehhhy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moneytt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Principal-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report-Editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School-012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-00009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-04222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-0477.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Read-088884.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tools1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolsKKKKK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolsUUUUUU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toolsyyyy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\University.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profilehhh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Profilerr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woman-041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakePhoto.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armoire_3cm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preloader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rdc.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

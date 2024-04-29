@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PrintServiceCardApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\template\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\template\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|c:\\users\\kayembe\\source\\repos\\printservicecardapp\\printservicecardapp\\modules\\template\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\template\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|c:\\users\\kayembe\\source\\repos\\printservicecardapp\\printservicecardapp\\modules\\template\\cardview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\template\\cardview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\listecarteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\listecarteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\editemployeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\editemployeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\editemployeview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\editemployeview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\reporting\\report\\cartesservicereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\reporting\\report\\cartesservicereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\reporting\\report\\carteservicereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\reporting\\report\\carteservicereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\listecarteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\listecarteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\editemployeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\editemployeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\printservicecardapp\\modules\\reporting\\report\\carteservicereport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|solutionrelative:printservicecardapp\\modules\\reporting\\report\\carteservicereport.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0549F68-0B9D-40C3-9E83-2F5684A41182}|PrintServiceCardApp\\PrintServiceCardApp.csproj|c:\\users\\kayembe\\source\\repos\\printservicecardapp\\printservicecardapp\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditEmployeView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\EditEmployeView.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\EditEmployeView.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\EditEmployeView.cs [Design]",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\EditEmployeView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:50:13.332Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListeCarteView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\ListeCarteView.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\ListeCarteView.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\ListeCarteView.cs [Design]",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\ListeCarteView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:19:51.632Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditEmployeView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\EditEmployeView.Designer.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\EditEmployeView.Designer.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\EditEmployeView.Designer.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\EditEmployeView.Designer.cs",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAhwO0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:57:26.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Template\\CardView.Designer.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\Template\\CardView.Designer.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Template\\CardView.Designer.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\Template\\CardView.Designer.cs",
+              "ViewState": "AQIAAGgBAAAAAAAAAAAQwGsBAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:31:04.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardView.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Template\\CardView.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\Template\\CardView.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Template\\CardView.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\Template\\CardView.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:00:51.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Template\\CardView.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\Template\\CardView.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Template\\CardView.cs [Design]",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\Template\\CardView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:26:54.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditEmployeView.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\EditEmployeView.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\EditEmployeView.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\EditEmployeView.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\EditEmployeView.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:50:14.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrintServiceCardApp",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\PrintServiceCardApp.csproj",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\PrintServiceCardApp.csproj",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\PrintServiceCardApp.csproj",
+              "RelativeToolTip": "PrintServiceCardApp\\PrintServiceCardApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-29T08:51:36.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarteServiceReport.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAhwA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:12:44.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\MainWindow.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\MainWindow.cs [Design]",
+              "RelativeToolTip": "PrintServiceCardApp\\MainWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:06:45.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\MainWindow.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\MainWindow.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\MainWindow.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:06:47.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartesServiceReport.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Reporting\\Report\\CartesServiceReport.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\Reporting\\Report\\CartesServiceReport.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Reporting\\Report\\CartesServiceReport.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\Reporting\\Report\\CartesServiceReport.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAhwA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:12:48.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListeCarteView.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\ListeCarteView.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\ListeCarteView.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\ListeCarteView.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\ListeCarteView.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:19:53.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Popup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Popup.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Popup.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Popup.cs [Design]",
+              "RelativeToolTip": "PrintServiceCardApp\\Popup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:07:17.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Popup.cs",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Popup.cs",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Popup.cs",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Popup.cs",
+              "RelativeToolTip": "PrintServiceCardApp\\Popup.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:07:58.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarteServiceReport.rpt",
+              "DocumentMoniker": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.rpt",
+              "RelativeDocumentMoniker": "PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.rpt",
+              "ToolTip": "C:\\Users\\kayembe\\source\\repos\\PrintServiceCardApp\\PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.rpt",
+              "RelativeToolTip": "PrintServiceCardApp\\Modules\\Reporting\\Report\\CarteServiceReport.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANbSURBVDhPRZNLb9tGEMdnd7mU\u002BBRFU5ZoVVaUGJLR1nnYrZFWaYyiQC69FeghCHpNPkQ\u002BSdEv0kOBNkGa\u002BOCgaIsYMaI4sqPEku2KpkSKb25Xdor\u002Bl7sLkju/Gc4MEXBt3P\u002BRbqnTUmF5ackyzGJBROfP/1M8CzJ35nuR746e/TyaPvrpHoGVlVVg7AfC36NbG5\u002BoRnXpWtW2715p1O4slLSvzJLWNXStW9LVblGSNwUitgkjCpLH3uLTP6Ned90DSTo4B3x89bb2Ub1\u002BlQO\u002B6zSrG6ahXNE0paVpUktTpBYR6CUBCw1ZLlZZTjLshRPrl8dOb6U\u002BFOYhWjzmglSgilxUK6ZSQggJaZahLGfAL5ZmfGHIMHS16oe5ESZ57vX3/e8fPjzEcwAoADnKEcIYMAK\u002BIeAmkPDhMgeFMENRlpCzIFGpLK8Zi9bXy83GKrt5UzwHJEmMCPCvucBBBin4aApvoQ/PkkfQI39Dpp\u002BhRauAW7ZRsE1dLxu61Hyfc5cb9wXfE0maA8EM0Nyzz3wYsiH02B5sh0/gefI7DMgeUCVEZZ1iTSliiVIMNe6zbbdL73NrYRoLpSAFOktjGCYj2I97cJi\u002BgdfhK9iZbfP5FAb8nuEYBJwhMk8/l1DrdD8vkrRzFBY25ZFgyOYUHQh9NEAHcIyOYOJMIPIDeEleQNk0oFypQMxzk/ExF95aM8LP2mbYsOQ0zQn741WKdvdEePMOw8jzgXkYTGcB2kkHrqk3YIEawGvGM3YRAm6UUX/ZwnuNCu3XDBxQEFnwjwXu2zr4Qxv0uApr6nXoWrfgunkDNLEElIj/A9iwM8iC455K/cPlCpqtN2VWk6qMjleB7G9CC9bhdvMb\u002BOLyl1DXbSgKFATe6ZxxAXjwAKX7L19EkedEIsnyRZMyW5egQk2w8w5sGd/CpwYPvWhxQ8J4kzEi8GJ90Hnl49hhQRJmUQzRNICMn2KGQtOaKgU6lKdpRCcTP3bHU891vcD1o8iPkySB4QdAquMUY\u002BoyRgZRwiZ6EQX1MnKqWvY6CpOdseM/GZ2e/fbuxPn16HT82HUmf4VeeKyqXjb/F9hlQYhr5cJRw1Kfg0guqTS1HCkbjk687fGptxPNyFDXqIeFNGV\u002BzFzfc8/8ycnu7m7yL4jqfyDe/hq3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-04-29T08:25:26.106Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
