@@ -271,7 +271,7 @@ namespace PrintServiceCardApp.Dao
         {
             try
             {
-                Request.CommandText = "select id_senaceepef " +
+                Request.CommandText = "select numero_qr_code " +
                     "from personnel " +
                     "order create_at desc " +
                     "limit 1";
